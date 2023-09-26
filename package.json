@@ -1,0 +1,63 @@
+{
+  "name": "travelblogportal",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@azure/msal-browser": "^3.0.2",
+    "@azure/msal-react": "^2.0.2",
+    "@azure/storage-blob": "^12.15.0",
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "@babel/preset-react": "^7.22.5",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-loader": "^9.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^5.3.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "dotenv-webpack": "^8.0.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "http-proxy-middleware": "^2.0.6",
+    "http-server": "^14.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-loading-icons": "^1.1.0",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "source-map-loader": "^4.0.1",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production && mv bundle server/build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

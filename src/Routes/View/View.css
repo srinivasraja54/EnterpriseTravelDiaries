@@ -1,0 +1,34 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  /* Add any other styles you need for the div */
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align text vertically in the column */
+  align-items: center; /* Align text horizontally in the column */
+  /* Add any other styles you need for the column */
+}
+
+/* Optional: Add spacing between the text paragraphs */
+.column p {
+  margin: 10px 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
