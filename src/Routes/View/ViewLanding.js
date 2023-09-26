@@ -28,8 +28,8 @@ const UpdateLanding = () => {
 
   return (
     <div className="App">
-      <GetUserInfo />
       <AuthenticatedTemplate>
+      <GetUserInfo />
         <h5>List of Blogs Posted by You. Click on the item to View</h5>
         <br />
         {status === 'loading' ? (

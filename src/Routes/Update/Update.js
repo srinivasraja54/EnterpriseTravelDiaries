@@ -197,8 +197,8 @@ const Update = () => {
 
   return (
     <div className="Container mt-4">
-      <GetUserInfo />
       <AuthenticatedTemplate>
+      <GetUserInfo />
         <>
           {status === 'loading' ? (
             <Spinner />

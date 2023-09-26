@@ -9,7 +9,7 @@ import { fetchTravelBlogs, deleteTravelBlog } from '../../store/travelBlogsSlice
 import { useDispatch, useSelector } from 'react-redux';
 import Create from '../Create/Create';
 import Table from '../../components/TableComponent';
-import Spinner from '../../components/Loading/Spinner'; 
+import Spinner from '../../components/Loading/Spinner';
 import GetUserInfo from '../../components/GetUserInfo';
 
 const UpdateLanding = () => {
@@ -41,16 +41,16 @@ const UpdateLanding = () => {
 
   return (
     <div className="App">
-      <GetUserInfo />
       <AuthenticatedTemplate>
+        <GetUserInfo />
         <Create graphData={userData} />
         <br />
         <h6>Blogs Posted by you. Click on the Row to Edit</h6>
         {status === 'loading' ? (
-                <Spinner />
-            ) : status === 'succeeded' ? (
-                <Table data={data} onRowClick={handleRowClick} onColumnClick={handleColumnClick} showDeleteColumn={true} />
-            ): <></>}
+          <Spinner />
+        ) : status === 'succeeded' ? (
+          <Table data={data} onRowClick={handleRowClick} onColumnClick={handleColumnClick} showDeleteColumn={true} />
+        ) : <></>}
       </AuthenticatedTemplate>
       <LoginMessage />
     </div>
