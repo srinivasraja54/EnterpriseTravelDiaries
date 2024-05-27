@@ -33,4 +33,7 @@ Enterprise Travel Diaries is a sophisticated and secure blogging portal designed
 - Supports multimedia content with image storage.
 - Scales seamlessly to meet the needs of growing enterprises.
 
-Enterprise Travel Diaries is the ideal solution for organizations looking to foster a culture of knowledge sharing and collaboration while maintaining strict control over user access and data security.
+
+
+
+<img width="1470" alt="Screenshot 2023-09-25 at 15 57 50" src="https://github.com/srinivasraja54/EnterpriseTravelDiaries/assets/47248696/e2a7ac5a-43dd-47b1-aecb-7e056f9ae7c8">
